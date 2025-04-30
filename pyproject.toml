@@ -1,0 +1,14 @@
+[project]
+name = "template-store"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}"}
+]
+license = {text = "{{ cookiecutter.license }}"}
+dependencies = [
+    "cookiecutter>=2.6.0",
+]
+

@@ -1,4 +1,4 @@
 [submodule "{{cookiecutter.project_slug}}/glowing-giggle"]
 	path = {{cookiecutter.project_slug}}/glowing-giggle
 	url = https://github.com/eduardo-paes-a3data/glowing-giggle.git
-	branch = iris
+	branch = {{cookiecutter.submodule_branch}} 
